@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Aula 19 fev. 2020</string>
+    <string name="nome_completo">Nome Completo:</string>
+    <string name="digite_o_nome">Digite o nome</string>
+    <string name="email">Email:</string>
+    <string name="digite_o_email">Digite o email</string>
+    <string name="telefone">Telefone:</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="digite_o_telefone">Digite o telefone</string>
+</resources>
