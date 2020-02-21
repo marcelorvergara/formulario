@@ -7,13 +7,20 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="213dp"
-        android:layout_height="301dp"
+        android:layout_width="337dp"
+        android:layout_height="508dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:visibility="visible"
+            android:src="@drawable/avatar1" />
 
         <TextView
             android:id="@+id/textView5"
@@ -26,10 +33,11 @@
             android:id="@+id/txtNome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:ems="10"
             android:hint="@string/digite_o_nome"
             android:inputType="textPersonName"
-            android:autofillHints="" tools:targetApi="o" />
+            tools:targetApi="o" />
 
         <TextView
             android:id="@+id/textView6"
@@ -42,10 +50,11 @@
             android:id="@+id/txtVwEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:ems="10"
             android:hint="@string/digite_o_email"
             android:inputType="textShortMessage|textWebEmailAddress"
-            android:autofillHints="" tools:targetApi="o" />
+            tools:targetApi="o" />
 
         <TextView
             android:id="@+id/textView7"
